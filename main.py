@@ -1,7 +1,26 @@
 import torch
 import torch.nn as nn
 from torchvision import datasets, transforms
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, random_split
+
+
+splits = [
+    (0.1, 0.9),
+    (0.2, 0.8),
+    (0.3, 0.7),
+    (0.4, 0.6),
+    (0.5, 0.5),
+    (0.6, 0.4),
+    (0.7, 0.3),
+    (0.8, 0.2),
+    (0.9, 0.1)
+]
+
+def split_dataset(dataset, train_ratio):
+    train_size = int(len(dataset) * train_ratio)
+    test_size = len(dataset) - train_size
+    train_set, test_set = random_split(dataset, [train_size, test_size])
+    return train_set, test_set
 
 class Net0(nn.Module):
     def __init__(self):
@@ -14,9 +33,25 @@ class Net0(nn.Module):
     
     def forward(self, x):
         return self.model(x)
+    
+class Net1(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.model = nn.Sequential(
+            nn.Flatten(),                 # 28x28 -> 784
+            nn.Linear(784, 128),           # единственный слой
+            nn.ReLU(),  
+            nn.Linear(128, 10),
+            nn.LogSoftmax(dim=1)
+        )
+
+    def forward(self, x):
+        return self.model(x)
 
 model = Net0()
+model1 = Net1()
 print(model)
+print(model1)
 
 loss_fn = nn.KLDivLoss(reduction="batchmean")
 
