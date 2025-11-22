@@ -1,0 +1,119 @@
+3 ep
+0.1 train_acc=0.8870 test_acc=0.8711
+0.2 train_acc=0.8988 test_acc=0.8925
+0.3 train_acc=0.9084 test_acc=0.9001
+0.4 train_acc=0.9135 test_acc=0.9049
+0.5 train_acc=0.9141 test_acc=0.9103
+0.6 train_acc=0.9159 test_acc=0.9125
+0.7 train_acc=0.9196 test_acc=0.9141
+0.8 train_acc=0.9180 test_acc=0.9142
+0.9 train_acc=0.9196 test_acc=0.9127
+0.1 train_acc=0.9243 test_acc=0.9054
+0.2 train_acc=0.9350 test_acc=0.9220
+0.3 train_acc=0.9488 test_acc=0.9353
+0.4 train_acc=0.9594 test_acc=0.9459
+0.5 train_acc=0.9621 test_acc=0.9504
+0.6 train_acc=0.9664 test_acc=0.9576
+0.7 train_acc=0.9695 test_acc=0.9569
+0.8 train_acc=0.9727 test_acc=0.9621
+0.9 train_acc=0.9725 test_acc=0.9618
+0.1 train_acc=0.9130 test_acc=0.8868
+0.2 train_acc=0.9426 test_acc=0.9225
+0.3 train_acc=0.9604 test_acc=0.9457
+0.4 train_acc=0.9699 test_acc=0.9529
+0.5 train_acc=0.9682 test_acc=0.9548
+0.6 train_acc=0.9666 test_acc=0.9533
+0.7 train_acc=0.9771 test_acc=0.9660
+0.8 train_acc=0.9754 test_acc=0.9636
+0.9 train_acc=0.9821 test_acc=0.9667
+
+
+ep 1
+0.1 train_acc=0.8298 test_acc=0.8225
+0.2 train_acc=0.8627 test_acc=0.8567
+0.3 train_acc=0.8791 test_acc=0.8752
+0.4 train_acc=0.8841 test_acc=0.8821
+0.5 train_acc=0.8898 test_acc=0.8918
+0.6 train_acc=0.8991 test_acc=0.8940
+0.7 train_acc=0.8987 test_acc=0.8939
+0.8 train_acc=0.9020 test_acc=0.9062
+0.9 train_acc=0.9054 test_acc=0.8973
+0.1 train_acc=0.8842 test_acc=0.8781
+0.2 train_acc=0.9079 test_acc=0.9020
+0.3 train_acc=0.9162 test_acc=0.9108
+0.4 train_acc=0.9231 test_acc=0.9179
+0.5 train_acc=0.9251 test_acc=0.9197
+0.6 train_acc=0.9335 test_acc=0.9233
+0.7 train_acc=0.9398 test_acc=0.9331
+0.8 train_acc=0.9424 test_acc=0.9379
+0.9 train_acc=0.9457 test_acc=0.9372
+0.1 train_acc=0.7328 test_acc=0.7182
+0.2 train_acc=0.8583 test_acc=0.8518
+0.3 train_acc=0.8470 test_acc=0.8400
+0.4 train_acc=0.9058 test_acc=0.9001
+0.5 train_acc=0.9076 test_acc=0.9001
+0.6 train_acc=0.9266 test_acc=0.9226
+0.7 train_acc=0.9316 test_acc=0.9297
+0.8 train_acc=0.9505 test_acc=0.9467
+0.9 train_acc=0.9488 test_acc=0.9405
+
+
+ep5
+0.1 train_acc=0.9058 test_acc=0.8894
+0.2 train_acc=0.9123 test_acc=0.9028
+0.3 train_acc=0.9157 test_acc=0.9094
+0.4 train_acc=0.9176 test_acc=0.9128
+0.5 train_acc=0.9211 test_acc=0.9154
+0.6 train_acc=0.9220 test_acc=0.9194
+0.7 train_acc=0.9233 test_acc=0.9214
+0.8 train_acc=0.9242 test_acc=0.9168
+0.9 train_acc=0.9252 test_acc=0.9178
+0.1 train_acc=0.9508 test_acc=0.9147
+0.2 train_acc=0.9603 test_acc=0.9378
+0.3 train_acc=0.9699 test_acc=0.9488
+0.4 train_acc=0.9745 test_acc=0.9556
+0.5 train_acc=0.9776 test_acc=0.9607
+0.6 train_acc=0.9797 test_acc=0.9653
+0.7 train_acc=0.9814 test_acc=0.9705
+0.8 train_acc=0.9812 test_acc=0.9690
+0.9 train_acc=0.9843 test_acc=0.9703
+0.1 train_acc=0.9302 test_acc=0.8919
+0.2 train_acc=0.9691 test_acc=0.9414
+0.3 train_acc=0.9784 test_acc=0.9527
+0.4 train_acc=0.9770 test_acc=0.9534
+0.5 train_acc=0.9814 test_acc=0.9611
+0.6 train_acc=0.9834 test_acc=0.9662
+0.7 train_acc=0.9865 test_acc=0.9699
+0.8 train_acc=0.9888 test_acc=0.9745
+0.9 train_acc=0.9846 test_acc=0.9645
+
+
+ep5 other
+
+Net0 | train_ratio=0.1 | train_acc=0.9035 | test_acc=0.8865 | N_needed=697
+Net0 | train_ratio=0.2 | train_acc=0.9155 | test_acc=0.9045 | N_needed=618
+Net0 | train_ratio=0.3 | train_acc=0.9151 | test_acc=0.9082 | N_needed=621
+Net0 | train_ratio=0.4 | train_acc=0.9203 | test_acc=0.9114 | N_needed=586
+Net0 | train_ratio=0.5 | train_acc=0.9209 | test_acc=0.9180 | N_needed=582
+Net0 | train_ratio=0.6 | train_acc=0.9235 | test_acc=0.9175 | N_needed=565
+Net0 | train_ratio=0.7 | train_acc=0.9250 | test_acc=0.9166 | N_needed=554
+Net0 | train_ratio=0.8 | train_acc=0.9256 | test_acc=0.9179 | N_needed=550
+Net0 | train_ratio=0.9 | train_acc=0.9254 | test_acc=0.9205 | N_needed=551
+Net1 | train_ratio=0.1 | train_acc=0.9462 | test_acc=0.9210 | N_needed=407
+Net1 | train_ratio=0.2 | train_acc=0.9632 | test_acc=0.9387 | N_needed=283
+Net1 | train_ratio=0.3 | train_acc=0.9677 | test_acc=0.9484 | N_needed=249
+Net1 | train_ratio=0.4 | train_acc=0.9748 | test_acc=0.9562 | N_needed=196
+Net1 | train_ratio=0.5 | train_acc=0.9773 | test_acc=0.9617 | N_needed=177
+Net1 | train_ratio=0.6 | train_acc=0.9794 | test_acc=0.9654 | N_needed=161
+Net1 | train_ratio=0.7 | train_acc=0.9819 | test_acc=0.9660 | N_needed=142
+Net1 | train_ratio=0.8 | train_acc=0.9832 | test_acc=0.9723 | N_needed=131
+Net1 | train_ratio=0.9 | train_acc=0.9849 | test_acc=0.9708 | N_needed=118
+Net5 | train_ratio=0.1 | train_acc=0.9243 | test_acc=0.8933 | N_needed=559
+Net5 | train_ratio=0.2 | train_acc=0.9666 | test_acc=0.9366 | N_needed=258
+Net5 | train_ratio=0.3 | train_acc=0.9808 | test_acc=0.9550 | N_needed=150
+Net5 | train_ratio=0.4 | train_acc=0.9774 | test_acc=0.9547 | N_needed=176
+Net5 | train_ratio=0.5 | train_acc=0.9778 | test_acc=0.9613 | N_needed=173
+Net5 | train_ratio=0.6 | train_acc=0.9849 | test_acc=0.9664 | N_needed=118
+Net5 | train_ratio=0.7 | train_acc=0.9852 | test_acc=0.9681 | N_needed=116
+Net5 | train_ratio=0.8 | train_acc=0.9858 | test_acc=0.9667 | N_needed=112
+Net5 | train_ratio=0.9 | train_acc=0.9876 | test_acc=0.9737 | N_needed=97

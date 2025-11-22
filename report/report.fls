@@ -583,6 +583,8 @@ OUTPUT 01-theoretical.aux
 INPUT .\01-theoretical.tex
 INPUT .\01-theoretical.tex
 INPUT 01-theoretical.tex
+INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1000.tfm
+INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm0700.tfm
 INPUT .\02-practical.tex
 INPUT .\02-practical.tex
 OUTPUT 02-practical.aux
@@ -621,3 +623,17 @@ INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1
 INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
 INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\ordum\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\ordum\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
