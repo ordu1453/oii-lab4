@@ -6,5 +6,5 @@
 \contentsline {section}{\numberline {1.4}Неравенство Чебышева для оценки минимального размера выборки}{4}{section.1.4}%
 \contentsline {chapter}{\numberline {2}Практический раздел}{6}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Программная реализация}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Результаты экспериментов}{6}{section.2.2}%
-\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{8}{appendix.1.A}%
+\contentsline {section}{\numberline {2.2}Результаты}{7}{section.2.2}%
+\contentsline {chapter}{ПРИЛОЖЕНИЕ \numberline {\CYRA }}{10}{appendix.1.A}%

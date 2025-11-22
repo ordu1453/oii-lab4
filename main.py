@@ -5,12 +5,12 @@ from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 
 # ------------------------------
-# 1. Датасет
+
 transform = transforms.ToTensor()
 full_data = datasets.MNIST(root='data', train=True, transform=transform, download=True)
 
 # ------------------------------
-# 2. Сети
+
 class Net0(nn.Module):  # без скрытых слоёв
     def __init__(self):
         super().__init__()
@@ -57,7 +57,7 @@ class Net5(nn.Module):  # 5 скрытых слоёв
         return self.model(x)
 
 # ------------------------------
-# 3. Функции
+
 def to_one_hot(y, num_classes=10):
     y_onehot = torch.zeros(len(y), num_classes)
     y_onehot[torch.arange(len(y)), y] = 1
@@ -110,7 +110,7 @@ def required_sample_size(p, epsilon, confidence):
     return int(N)
 
 # ------------------------------
-# 4. Основной цикл
+
 splits = [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
 models = {'Net0': Net0, 'Net1': Net1, 'Net5': Net5}
 colors = {'Net0':'r', 'Net1':'g', 'Net5':'b'}
@@ -118,8 +118,8 @@ colors = {'Net0':'r', 'Net1':'g', 'Net5':'b'}
 plt.figure(figsize=(10,6))
 
 # Параметры для Чебышёва
-epsilon = 0.05      # допустимая ошибка
-confidence = 0.95   # уверенность 95%
+epsilon = 0.05      
+confidence = 0.95   
 
 for name, model_class in models.items():
     train_accuracies = []
@@ -131,33 +131,29 @@ for name, model_class in models.items():
         train_loader = DataLoader(train_set, batch_size=64, shuffle=True)
         test_loader  = DataLoader(test_set, batch_size=64)
 
-        model = model_class()  # новая сеть с нуля
+        model = model_class()  
         optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
         loss_fn = nn.KLDivLoss(reduction="batchmean")
 
-        # Обучение 5 эпох
         for epoch in range(5):
             train_epoch(model, train_loader, optimizer, loss_fn)
 
-        # Оценка точности
         train_acc = evaluate(model, train_loader)
         test_acc  = evaluate(model, test_loader)
         train_accuracies.append(train_acc)
         test_accuracies.append(test_acc)
 
-        # Расчет минимального размера выборки по Чебышёву
         N_needed = required_sample_size(train_acc, epsilon, confidence)
         chebyshev_sizes.append(N_needed)
 
         print(f"{name} | train_ratio={train_ratio} | train_acc={train_acc:.4f} | test_acc={test_acc:.4f} | N_needed={N_needed}")
 
-    # График train/test accuracy
     plt.plot(splits, train_accuracies, marker='o', color=colors[name], linestyle='-', label=f'{name} Train')
     plt.plot(splits, test_accuracies, marker='s', color=colors[name], linestyle='--', label=f'{name} Test')
 
 plt.xlabel('Доля обучающей выборки')
-plt.ylabel('Accuracy')
-plt.title('Train/Test Accuracy vs Доля обучающей выборки')
+plt.ylabel('Точность')
+plt.title('')
 plt.grid(True)
 plt.legend()
 plt.show()

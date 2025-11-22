@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.12)  22 NOV 2025 23:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.12)  23 NOV 2025 01:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1679,16 +1679,56 @@ LaTeX Font Warning: Font shape `T2A/cmr/bx/n' in size <16> not available
 
  (02-practical.tex
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
-
+(C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 13.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 13.
+ (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T2A).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package csquotes Info: Input encoding change on input line 13.
+ (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\koi8-r.def
+File: koi8-r.def 2022/06/11 v1.0e Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (encoding ?) on input line 44.
+) (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-utf8.def
+File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
+) (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-koi8-r.def
+File: se-koi8-r.def 2019/11/29 v1.12 stringenc: KOI8-R
+)
+Package csquotes Info: Input encoding change on input line 20.
+ (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\koi8-r.def
+File: koi8-r.def 2022/06/11 v1.0e Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (encoding ?) on input line 44.
+)
 
 [6
 
 
 
 
-])
+]
+Package csquotes Info: Input encoding change on input line 27.
+ (C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\koi8-r.def
+File: koi8-r.def 2022/06/11 v1.0e Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (encoding ?) on input line 44.
+)
 
-[7
+[7]
+<inc/img/ep5_final.png, id=159, 722.7pt x 433.62pt>
+File: inc/img/ep5_final.png Graphic file (type png)
+<use inc/img/ep5_final.png>
+Package pdftex.def Info: inc/img/ep5_final.png  used on input line 67.
+(pdftex.def)             Requested size: 469.47049pt x 281.68425pt.
+
+
+[8 <./inc/img/ep5_final.png>])
+
+[9
 
 ]
 \openout2 = `03-appendix.aux'.
@@ -1700,14 +1740,26 @@ pdfTeX warning (ext4): destination with the same identifier (name{appendixchapte
 l.2 	\chapter{}
                
 ПРИЛОЖЕНИЕ \CYRA .
+Package csquotes Info: Input encoding change on input line 6.
+(C:\Users\ordum\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\koi8-r.def
+File: koi8-r.def 2022/06/11 v1.0e Input encoding file
+LaTeX Encoding Info:    Ignoring declaration for text command \textdegree (encoding ?) on input line 44.
 )
 
-[8
+[10
 
 
 
 
-] 
+]
+
+[11]
+
+[12]
+
+[13])
+
+[14] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (report.aux (01-theoretical.aux) (02-practical.aux) (03-appendix.aux))
  ***********
@@ -1720,23 +1772,23 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: E536BE54EE6FAFA35D43502B79D70651;2168.
+(rerunfilecheck)             Checksum: FD1381A9942EF6FBFA1869D38F30393A;2056.
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50254 strings out of 468130
- 1105205 string characters out of 5430632
- 2268123 words of memory out of 5000000
- 78016 multiletter control sequences out of 15000+600000
- 643073 words of font info for 81 fonts, out of 8000000 for 9000
+ 51354 strings out of 468130
+ 1120692 string characters out of 5430632
+ 2358705 words of memory out of 5000000
+ 78889 multiletter control sequences out of 15000+600000
+ 643720 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  126i,19n,129p,1232b,3209s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (8 pages, 328484 bytes).
+ <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi720\tcrm1200.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1200.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0800.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\ordum\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ordum/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (14 pages, 464936 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 8794 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 855 PDF objects out of 1000 (max. 8388607)
+ 243 named destinations out of 1000 (max. 500000)
+ 9823 words of extra memory for PDF output out of 10000 (max. 10000000)
 
